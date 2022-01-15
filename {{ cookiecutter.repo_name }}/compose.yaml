@@ -1,0 +1,4 @@
+services:
+  {{ cookiecutter.name }}:
+    build: .
+    image: {{ cookiecutter.image_name }}
